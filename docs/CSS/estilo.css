@@ -1,0 +1,153 @@
+body {
+    
+    background-color: #F5A4AC;
+}
+
+header {
+    
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #EE97A0;
+    padding: 0.3%;
+
+    
+}
+
+nav a:hover {
+    filter: brightness(0.9);
+    transition-duration: 0.5s;
+}
+
+.produtoimagem{
+    height: 255px;
+    padding: 4%;
+}
+
+.morangoimagem {
+    margin-left: 169%;
+}
+
+
+
+.col-md-2 {
+    margin-left: 5%;
+    
+}
+
+.catg {
+    margin-left: 42.5%;
+    margin-bottom: 1%;
+}
+
+.preco {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.missao{
+    font-weight: bold
+}
+
+.logo{
+    height: 60px;
+}
+
+.headerpink {
+    background-color: #EE97A0;
+    border-width: 1%;
+}
+
+.menunames {
+    font-family: cursive;
+    color: #F5F49B;
+}
+
+.boasvindas {
+    margin-top: 3.5%;
+    margin-left: 42%;
+    margin-bottom: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    height: 50px;
+    
+}
+
+.historia {
+    margin-left: 10%;
+    text-align: center;
+    margin-right: 13%;
+    color: white;
+    font-family: cursive;
+}
+
+.boasvindas2 {
+    font-family: cursive;
+    text-align: center;
+    
+    color: white;
+    display: block;
+   
+}
+
+.artists {
+    font-family: cursive;
+    margin-left: 1%;
+}
+
+.listinha {
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+    
+}
+
+.listinha:hover {
+    filter: brightness(0.9);
+    transition-duration: 0.5s;
+}
+
+.navfont {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.produto-link {
+    position: relative;
+    overflow: hidden;
+}
+
+.logomenor {
+    margin-left: 32%;
+}
+
+.saibamaisimagem {
+    margin-left: 36%;
+    margin-top: 5%;
+}
+
+
+
+.produtoimagem {
+    transition: transform 0.2s ease-in-out;
+}
+
+.produto-link:hover .produtoimagem {
+    transform: scale(1.1); /* Ajuste o valor conforme necessário */
+}
